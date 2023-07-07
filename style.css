@@ -105,6 +105,10 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: row-reverse;
+   
+}
+
+.services{
     background-image: url(images/background.png),linear-gradient(45deg, rgb(5, 5, 5), #313131) ;
     padding: 100px 0;
 }
@@ -130,8 +134,7 @@
 .footer-container {
     display: flex;
     justify-content: space-around;
-    background-color: black;
-    padding: 100px 0;
+    margin-bottom: 10px;
 
 }
 .footer-box{
@@ -148,7 +151,13 @@
 .footer-titl,p{
     padding: 4px 0;
 }
-
+.about-us-title{
+    color: white;
+}
+.footer{
+    background-color: black;
+    padding: 100px 0;
+}
 
 
 
