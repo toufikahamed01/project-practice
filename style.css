@@ -1,0 +1,154 @@
+/* nav bar coding start */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.menu-container{
+    display: flex;
+    background-color: #424141;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding: 10px;
+}
+.menu {
+    display: flex;
+    list-style: none;
+}
+.item{
+    margin-left: 20px;
+    padding: 5px;
+    font-size: 18px;
+    cursor:pointer ;
+}
+.item:hover{
+    color: lightcoral;
+}
+.logo{
+    width: 150px;
+    padding: 5px;
+}
+/* nav bar coding end */
+
+/* banner coding start here */
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-image: url(images/background.png), linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e) ;
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photo {
+    width: 300px;
+}
+.title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.descriptions{
+    font-size: 15px;
+    margin-top: 15px;
+}
+.btn{
+    padding: 10px;
+    background-color: red;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    margin-top: 15px;
+    outline: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(148, 142, 142);
+    color: black;
+}
+/* banner coding end here */
+
+/* About us section coding start here */
+
+.about-us-title{
+    font-size: 54px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.about-us-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.second-title{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.descriptions {
+    font-size: 20px;
+}
+
+.photo {
+    width: 300px;
+}
+
+/* our services section coding start here */
+
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-image: url(images/background.png),linear-gradient(45deg, rgb(5, 5, 5), #313131) ;
+    padding: 100px 0;
+}
+.box{
+    width: 230px;
+    height: 280px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    box-shadow: 5px 5px 15px gray;
+    margin: 10px;
+}
+.icon{
+    width: 70px;
+}
+.box-title{
+    padding: 10px 0;
+}
+
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 100px 0;
+
+}
+.footer-box{
+    color: white;
+}
+.footer-logo {
+    width: 180px;
+}
+
+.footer-title{
+    padding: 15px 0;
+}
+
+.footer-titl,p{
+    padding: 4px 0;
+}
+
+
+
+
